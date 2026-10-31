@@ -1,12 +1,18 @@
 # 343SHOP
 
-**343SHOP** — duka la zawadi binafsi na bidhaa za washirika.  
+**343SHOP** — duka la kisasa la zawadi, picha, logo, vitabu, hadithi na content.  
 Tunauza **Afrika** na **kimataifa** (USD).
 
-- **Zawadi binafsi (Custom)** — vikombe, fulana, kava, mabango, mikufu, vitabu vya hadithi (Kiswahili)
-- **Bidhaa za washirika (Partner)** — gadgets na vitu vilivyochaguliwa; unanunua moja kwa moja kutoka Amazon au Alibaba
-- Lugha mbili: **Kiswahili + English**
-- Soko: **Afrika + dunia**
+## Unachouza
+
+| Aina | Mfano |
+|------|--------|
+| **Picha & Printi** | Custom photo print, canvas wall art |
+| **Logo & Branding** | Logo design pack, full brand kit |
+| **Vitabu** | Storybooks (Kiswahili), author paperback |
+| **Hadithi & Content** | Custom story eBook, social content pack |
+| **Zawadi binafsi** | Vikombe, fulana, kava za simu |
+| **Washirika** | Gadgets kutoka Amazon / Alibaba |
 
 ## Kuendesha
 
@@ -18,27 +24,16 @@ npm start          # http://localhost:3000
 
 ## Muundo
 
-| Faili / Folda | Maelezo |
-|---------------|--------|
-| `server.js` | API, rate limiting, security headers, `/go/:slug` redirect ya partner |
-| `lib/catalog.js` | Inasoma `data/products.json`, inakataa data mbaya, inaruhusu partner domains tu |
-| `data/products.json` | Katalogi — badilisha hapa kuongeza bidhaa |
-| `public/` | Frontend ya kisasa (HTML/CSS/JS, hakuna framework) |
-| `data/orders.jsonl` | Oda (inaweza kuhamishiwa database baadaye) |
+- `server.js` — API, security, partner redirects
+- `lib/catalog.js` — katalogi + validation
+- `data/products.json` — bidhaa (badilisha hapa)
+- `public/` — frontend ya kisasa (HTML/CSS/JS)
 
-## Kabla ya kuzindua (live)
+## Kabla ya live
 
-1. Weka `SITE_URL` ya domain yako na HTTPS.
-2. Unganisha malipo: Stripe Checkout au M-Pesa / Tigo Pesa. Oda inaanza `pending_payment`; badilisha kuwa `paid` tu baada ya webhook yenye signature.
-3. Hamisha `orders.jsonl` kwenye database (PostgreSQL) na usimbe taarifa za wateja.
-4. Weka `AMAZON_ASSOCIATE_TAG` yako na uthibitishe ASIN halisi kwenye `products.json`.
-5. Ongeza picha halisi (`image` URL ya https) kwa kila bidhaa.
-
-## Jinsi inavyofanya kazi
-
-- **Bidhaa zako (own / custom)** — unachukua oda, unatengeneza/kusafirisha.
-- **Bidhaa za partner** — mteja anaenda moja kwa moja kwa Amazon/Alibaba kupitia link yako (affiliate).
-
----
+1. Weka `SITE_URL` + HTTPS  
+2. Unganisha malipo (Stripe / M-Pesa)  
+3. Weka `AMAZON_ASSOCIATE_TAG`  
+4. Ongeza picha halisi kwenye `products.json`  
 
 © 2026 343SHOP · Africa & International
