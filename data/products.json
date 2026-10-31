@@ -1,0 +1,105 @@
+{
+  "categories": [
+    { "id": "mugs", "en": "Mugs", "sw": "Vikombe" },
+    { "id": "apparel", "en": "Apparel", "sw": "Nguo" },
+    { "id": "phone-cases", "en": "Phone cases", "sw": "Kava za simu" },
+    { "id": "posters", "en": "Posters & canvas", "sw": "Mabango na canvas" },
+    { "id": "jewelry", "en": "Necklaces", "sw": "Mikufu" },
+    { "id": "books", "en": "Storybooks", "sw": "Vitabu vya hadithi" },
+    { "id": "gadgets", "en": "Gadgets", "sw": "Vifaa" }
+  ],
+  "products": [
+    {
+      "slug": "custom-photo-mug",
+      "name": "The Everyday Photo Mug",
+      "nameSw": "Kikombe cha Picha ya Kila Siku",
+      "description": "Ceramic mug printed with your photo. Dishwasher safe.",
+      "descriptionSw": "Kikombe cha kauri chenye picha yako. Kinaweza kuoshwa kwenye mashine.",
+      "category": "mugs",
+      "priceCents": 2400,
+      "type": "own",
+      "personalizable": true,
+      "badge": "Bestseller"
+    },
+    {
+      "slug": "personalized-comfort-tee",
+      "name": "Your Story Comfort Tee",
+      "nameSw": "Fulana ya Hadithi Yako",
+      "description": "Soft cotton tee with your name or short message.",
+      "descriptionSw": "Fulana laini ya pamba yenye jina lako au ujumbe mfupi.",
+      "category": "apparel",
+      "priceCents": 3200,
+      "type": "own",
+      "personalizable": true
+    },
+    {
+      "slug": "memory-phone-case",
+      "name": "Memory Lane Phone Case",
+      "nameSw": "Kava la Simu la Kumbukumbu",
+      "description": "Durable phone case with your photo or design.",
+      "descriptionSw": "Kava imara la simu lenye picha au design yako.",
+      "category": "phone-cases",
+      "priceCents": 2900,
+      "type": "own",
+      "personalizable": true
+    },
+    {
+      "slug": "meaningful-moments-poster",
+      "name": "Meaningful Moments Poster",
+      "nameSw": "Bango la Nyakati Muhimu",
+      "description": "Museum-quality print for your favourite memory.",
+      "descriptionSw": "Bango la ubora wa juu kwa kumbukumbu unayoipenda.",
+      "category": "posters",
+      "priceCents": 3600,
+      "type": "own",
+      "personalizable": true
+    },
+    {
+      "slug": "name-necklace",
+      "name": "Name Pendant Necklace",
+      "nameSw": "Mkufu wa Jina",
+      "description": "Stainless steel pendant with a name of up to 10 letters.",
+      "descriptionSw": "Pendanti ya chuma cha pua yenye jina la hadi herufi 10.",
+      "category": "jewelry",
+      "priceCents": 2800,
+      "type": "own",
+      "personalizable": true
+    },
+    {
+      "slug": "storybook-baraka",
+      "name": "Baraka's Storybook (Kiswahili)",
+      "nameSw": "Kitabu cha Hadithi cha Baraka (Kiswahili)",
+      "description": "A Swahili storybook where your child's name is part of the adventure.",
+      "descriptionSw": "Kitabu cha hadithi kwa Kiswahili ambapo jina la mtoto wako ni sehemu ya safari.",
+      "category": "books",
+      "priceCents": 1800,
+      "type": "own",
+      "personalizable": true,
+      "badge": "New"
+    },
+    {
+      "slug": "wireless-earbuds-x",
+      "name": "Wireless Earbuds X",
+      "nameSw": "Earbuds Zisizo na Waya X",
+      "description": "Bluetooth earbuds with charging case. Sold and shipped by Amazon.",
+      "descriptionSw": "Earbuds za Bluetooth zenye kesi ya kuchaji. Zinauzwa na kusafirishwa na Amazon.",
+      "category": "gadgets",
+      "priceCents": 3999,
+      "type": "partner",
+      "partnerName": "Amazon",
+      "partnerUrl": "https://www.amazon.com/dp/B0EXAMPLE1"
+    },
+    {
+      "slug": "led-desk-lamp",
+      "name": "LED Desk Lamp",
+      "nameSw": "Taa ya LED ya Mezani",
+      "description": "Adjustable LED desk lamp. Sold and shipped by Alibaba suppliers.",
+      "descriptionSw": "Taa ya LED ya mezani inayoweza kurekebishwa. Inauzwa na kusafirishwa na wasambazaji wa Alibaba.",
+      "category": "gadgets",
+      "priceCents": 1850,
+      "type": "partner",
+      "partnerName": "Alibaba",
+      "partnerUrl": "https://www.alibaba.com/product-detail/_1600000000000.html"
+    }
+  ]
+}
