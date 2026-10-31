@@ -3,6 +3,8 @@
 **343SHOP** — duka la kisasa la zawadi, picha, logo, vitabu, hadithi na content.  
 Tunauza **Afrika** na **kimataifa** (USD).
 
+Founded by **moog343 LMT** · Mr AI · Chuga Stani
+
 ## Unachouza
 
 | Aina | Mfano |
@@ -26,14 +28,7 @@ npm start          # http://localhost:3000
 
 - `server.js` — API, security, partner redirects
 - `lib/catalog.js` — katalogi + validation
-- `data/products.json` — bidhaa (badilisha hapa)
-- `public/` — frontend ya kisasa (HTML/CSS/JS)
-
-## Kabla ya live
-
-1. Weka `SITE_URL` + HTTPS  
-2. Unganisha malipo (Stripe / M-Pesa)  
-3. Weka `AMAZON_ASSOCIATE_TAG`  
-4. Ongeza picha halisi kwenye `products.json`  
+- `data/products.json` — bidhaa
+- `public/` — frontend (logo, UI, app)
 
 © 2026 343SHOP · Africa & International
