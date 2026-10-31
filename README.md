@@ -1,11 +1,12 @@
-# 343SHOP — Duka la Dalali la Kisasa
+# 343SHOP
 
-**Dalali wako wa kisasa.** Tunachagua zawadi binafsi + bidhaa bora kutoka washirika (Amazon, Alibaba) na kukuunganisha moja kwa moja.
+**343SHOP** — duka la zawadi binafsi na bidhaa za washirika.  
+Tunauza **Afrika** na **kimataifa** (USD).
 
 - **Zawadi binafsi (Custom)** — vikombe, fulana, kava, mabango, mikufu, vitabu vya hadithi (Kiswahili)
-- **Bidhaa za washirika (Partner / Dalali)** — gadgets na vitu vilivyochaguliwa; unanunua moja kwa moja kutoka Amazon au Alibaba
+- **Bidhaa za washirika (Partner)** — gadgets na vitu vilivyochaguliwa; unanunua moja kwa moja kutoka Amazon au Alibaba
 - Lugha mbili: **Kiswahili + English**
-- Bei: **USD**
+- Soko: **Afrika + dunia**
 
 ## Kuendesha
 
@@ -33,13 +34,11 @@ npm start          # http://localhost:3000
 4. Weka `AMAZON_ASSOCIATE_TAG` yako na uthibitishe ASIN halisi kwenye `products.json`.
 5. Ongeza picha halisi (`image` URL ya https) kwa kila bidhaa.
 
-## Dhana ya “Dalali”
+## Jinsi inavyofanya kazi
 
-343SHOP inafanya kazi kama **dalali wa kisasa**:
-- Unachagua na kuonyesha bidhaa bora
-- Kwa bidhaa za partner → mteja anaenda moja kwa moja kwa muuzaji (Amazon/Alibaba) kupitia link yako ya affiliate
-- Kwa bidhaa zako (custom) → unaweza kuchukua oda na kutengeneza/kusafirisha mwenyewe
+- **Bidhaa zako (own / custom)** — unachukua oda, unatengeneza/kusafirisha.
+- **Bidhaa za partner** — mteja anaenda moja kwa moja kwa Amazon/Alibaba kupitia link yako (affiliate).
 
 ---
 
-© 2026 343SHOP
+© 2026 343SHOP · Africa & International

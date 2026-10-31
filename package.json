@@ -2,7 +2,7 @@
   "name": "343shop",
   "version": "1.0.0",
   "private": true,
-  "description": "343SHOP — Duka la Dalali la Kisasa: zawadi binafsi + partner products (Amazon/Alibaba)",
+  "description": "343SHOP — personalized gifts & partner products. Selling across Africa and internationally.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
