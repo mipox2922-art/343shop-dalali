@@ -1,0 +1,18 @@
+{
+  "name": "343shop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "343SHOP — Duka la Dalali la Kisasa: zawadi binafsi + partner products (Amazon/Alibaba)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check": "node --check server.js && node --check lib/catalog.js && node --check public/app.js"
+  },
+  "engines": { "node": ">=18.17" },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.4.1",
+    "helmet": "^8.0.0"
+  }
+}
