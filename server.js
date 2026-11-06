@@ -7,6 +7,7 @@ const express = require('express');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 const catalog = require('./lib/catalog');
+const createAiAdminRouter = require('./lib/ai-admin');
 
 const PORT = Number(process.env.PORT) || 3000;
 const FREE_SHIPPING_CENTS = 7500; // $75
@@ -197,6 +198,9 @@ app.get('/go/:slug', (req, res) => {
   console.info('partner_click', { slug: product.slug, partner: product.partnerName, ts: new Date().toISOString() });
   res.redirect(302, product.partnerUrl);
 });
+
+// Private operations API for MR AI. It is separate from the public storefront API.
+app.use('/api/ai', createAiAdminRouter({ catalog }));
 
 app.use('/api', (_req, res) => res.status(404).json({ error: 'not_found' }));
 
